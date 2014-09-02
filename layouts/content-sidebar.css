@@ -1,0 +1,211 @@
+/*
+Theme Name: Jekkilekki
+Layout: Content-Sidebar
+*/
+
+.wrapper {
+    max-width: 1160px;
+}
+.site-content {
+    padding-bottom: 4em;
+    background: #b2b2b2 url(../images/pattern.svg) repeat;
+}
+.single .site-content,
+.page .site-content {
+    background: #fff;
+    background: hsl(0, 0%, 100%);
+}
+.site-content .widget-area {
+	width: 380px;
+        float: right;
+        padding: 4rem;
+        background: #e1e1e1;
+        background: hsl(0, 0%, 100%);
+        opacity: .8;
+}
+.single .widget-area,
+.page .widget-area {
+    padding-top: 200px;
+}
+@media screen and (min-width: 1880px) {
+    .single .widget-area,
+    .page .widget-area {
+        padding-top: 2rem;
+        margin-top: -100px;
+    }
+    .entry-header {
+        margin-left: -580px!important;
+    }
+    .entry-content {
+        max-width: 900px;
+        max-width: 90rem;
+        margin: 0 auto;
+    }
+    
+}
+.site-content .widget-area:hover {
+        opacity: 1;
+}
+.site-footer {
+	clear: both;
+	width: 100%;
+}
+.page-header,
+.entry-header, 
+.entry-content,
+.entry-meta,
+.entry-footer,
+.tag-links,
+.post-navigation,
+.comments-area,
+.paging-navigation {
+    position: relative;
+    max-width: 780px;
+    max-width: 78rem;
+    padding: 0 4rem;
+    margin: 0 auto;
+}
+
+@media screen and (min-width: 1160px) and (max-width: 1539px) {
+    .content-area {
+	width: 100%;
+        float: left;
+        margin-left: -380px;
+        padding-left: 380px;
+    }
+    .page-header,
+    .entry-header, 
+    .entry-content,
+    .entry-meta,
+    .entry-footer,
+    .tag-links,
+    .post-navigation,
+    .comments-area,
+    .paging-navigation,
+    .index-box {
+        margin-right: 0;
+    }
+}
+
+@media screen and (max-width: 1159px) {
+    .site-content {
+	width: auto;
+        max-width: 780px;
+        float: none;
+        margin: 1em auto 0;
+    }
+}
+
+@media screen and (max-width: 500px) {
+    .site-branding { padding: 1rem; }
+    
+    .title-box {
+        max-width: 90%;
+    }
+    .site-title { font-size: 50px; }
+}
+
+.index-box {
+    max-width: 780px;
+    max-width: 78rem;
+    padding: 1em 0 2em;
+    margin: 0 auto 2em;
+    background: #fff;
+    background: hsl(0, 0%, 100%);
+}
+
+.index-box blockquote.alignleft,
+.index-box blockquote.alignright {
+    background: #fff;
+    background: hsl(0, 0%, 100%);
+    border: none;
+}
+
+@media screen and (min-width: 1820px) {
+    .index-box blockquote.alignright { padding-right: 2em; }
+}
+@media screen and (min-width: 1320px) {
+    .index-box blockquote.alignleft { padding-left: 2em; }
+}
+
+.paging-navigation,
+.page-header {
+    padding-top: 1em;
+    padding-bottom: 1em;
+    margin-bottom: 2em;
+    list-style-type: none;
+    background: #fff;
+}
+
+// Direct copy from Mor10's current site
+@media screen and (max-width: 1820px) and (min-width: 1440px) {.front-index-thumbnail{margin-bottom:0;}.front-index-thumbnail .image-shifter{margin-bottom:-3.2em;}.index-box{margin-top:0;}}
+@media screen and (min-width: 1580px) {.entry-content{margin: 0 auto;}}
+@media screen and (min-width: 1160px) and (max-width: 1539px) {.content-area{float:left;width:100%;margin-left:-380px;padding-left:380px;}.index-box,.entry-header,.page-header,.entry-content,.entry-footer,.tag-links,.post-navigation,.comments-area,.paging-navigation,.author-index{margin-right:0;}}
+@media screen and (max-width: 1159px) {.site-content .widget-area{float:none;width:auto;max-width:780px;margin:1em auto 0;}}
+@media screen and (min-width: 1820px) {.image-shifter{float:none;width:1060px;margin:0 auto;}}
+@media screen and (min-width: 1540px) and (max-width: 1820px) {.image-shifter{margin-right:380px;}}
+@media screen and (min-width: 1440px) and (max-width: 1819px) {.image-shifter{float:right;width:1060px;}}
+
+// Media queries for standard devices from Chris Coyier
+// CSS-Tricks.com/snippets/css/media-queries-for-standard-devices/
+
+/* Smartphones (portrait and landscape) ----------- */
+@media only screen 
+and (min-device-width : 320px) 
+and (max-device-width : 480px) {
+/* Styles */
+}
+
+/* Smartphones (landscape) ----------- */
+@media only screen 
+and (min-width : 321px) {
+/* Styles */
+}
+
+/* Smartphones (portrait) ----------- */
+@media only screen 
+and (max-width : 320px) {
+/* Styles */
+}
+
+/* iPads (portrait and landscape) ----------- */
+@media only screen 
+and (min-device-width : 768px) 
+and (max-device-width : 1024px) {
+/* Styles */
+}
+
+/* iPads (landscape) ----------- */
+@media only screen 
+and (min-device-width : 768px) 
+and (max-device-width : 1024px) 
+and (orientation : landscape) {
+/* Styles */
+}
+
+/* iPads (portrait) ----------- */
+@media only screen 
+and (min-device-width : 768px) 
+and (max-device-width : 1024px) 
+and (orientation : portrait) {
+/* Styles */
+}
+
+/* Desktops and laptops ----------- */
+@media only screen 
+and (min-width : 1224px) {
+/* Styles */
+}
+
+/* Large screens ----------- */
+@media only screen 
+and (min-width : 1824px) {
+/* Styles */
+}
+
+/* iPhone 4 ----------- */
+@media
+only screen and (-webkit-min-device-pixel-ratio : 1.5),
+only screen and (min-device-pixel-ratio : 1.5) {
+/* Styles */
+}
